@@ -204,9 +204,9 @@ export default function Header() {
         //     src={process.env.REACT_APP_BASE_URL + "/image/" + profilePicture}
         //   />
         // </span>
-        <span onClick={logout}>
-          <LogoutIcon />
-        </span>
+        // <span onClick={logout}>
+        //   <LogoutIcon />
+        // </span>
       </div>
       <div>
         // <Navbar />
