@@ -199,11 +199,11 @@ export default function Header() {
     <div className="app-header">
       <div>
         <h1>Hi {username}</h1>
-        <span onClick={showProfilePage}>
-          <Avatar
-            src={process.env.REACT_APP_BASE_URL + "/image/" + profilePicture}
-          />
-        </span>
+        // <span onClick={showProfilePage}>
+        //   <Avatar
+        //     src={process.env.REACT_APP_BASE_URL + "/image/" + profilePicture}
+        //   />
+        // </span>
         <span onClick={logout}>
           <LogoutIcon />
         </span>
