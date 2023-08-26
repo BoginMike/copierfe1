@@ -21,11 +21,11 @@ export default function Header() {
   const navigate = useNavigate();
 
   useEffect(() => {
-   if (token) {
+   // if (token) {
     let token = localStorage.getItem("token");
     let decoded = jwt_decode(token);
     setUsername(decoded.username);
-    setProfilePicture(decoded.profilePicture); }
+    setProfilePicture(decoded.profilePicture); 
   }, []);
 
   function logout() {
